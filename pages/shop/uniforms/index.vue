@@ -10,8 +10,8 @@
           <h1>Available Uniforms</h1>
           <div class="container-fluid">
             <div class="row justify-content-center text-center">
-              <linkbutton LNK="/shop/uniforms/gi'}"  NAME="Gi Uniforms" DESCRIPTION=""  v-if="$store.getters.store.filter(item=>{return item.category === 'gi'}).length > 0"/>
-              <linkbutton LNK="/shop/uniforms/clothing'}"  NAME="Tshirts and Hoodies" DESCRIPTION="" SRC="shopping/Shirt_Front.jpg"  v-if="$store.getters.store.filter(item=>{return item.category === 'clothing'}).length > 0"/>
+              <linkbutton LNK="/shop/uniforms/gi"  NAME="Gi Uniforms" DESCRIPTION=""  v-if="$store.getters.store.filter(item=>{return item.category === 'gi'}).length > 0"/>
+              <linkbutton LNK="/shop/uniforms/clothing"  NAME="Tshirts and Hoodies" DESCRIPTION="" SRC="shopping/Shirt_Front.jpg"  v-if="$store.getters.store.filter(item=>{return item.category === 'clothing'}).length > 0"/>
             </div>
           </div>
       </article>

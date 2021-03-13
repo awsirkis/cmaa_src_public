@@ -10,10 +10,10 @@
           <h1>Available Gear</h1>
           <div class="container-fluid">
             <div class="row justify-content-center text-center">
-              <linkbutton LNK="/shop/gear/mouthguard'}"  NAME="Mouthguards" DESCRIPTION="" v-if="$store.getters.store.filter(item=>{return item.category === 'mouthguard'}).length > 0"/>
-              <linkbutton LNK="/shop/gear/legs'}"  NAME="Leg Protection" DESCRIPTION="" v-if="$store.getters.store.filter(item=>{return item.category === 'legs'}).length > 0"/>
-              <linkbutton LNK="/shop/gear/gloves'}"  NAME="Gloves" DESCRIPTION="" v-if="$store.getters.store.filter(item=>{return item.category === 'gloves'}).length > 0"/>
-              <linkbutton LNK="/shop/gear/head'}"  NAME="Headgear" DESCRIPTION="" v-if="$store.getters.store.filter(item=>{return item.category === 'headgear'}).length > 0"/>
+              <linkbutton LNK="/shop/gear/mouthguard"  NAME="Mouthguards" DESCRIPTION="" v-if="$store.getters.store.filter(item=>{return item.category === 'mouthguard'}).length > 0"/>
+              <linkbutton LNK="/shop/gear/legs"  NAME="Leg Protection" DESCRIPTION="" v-if="$store.getters.store.filter(item=>{return item.category === 'legs'}).length > 0"/>
+              <linkbutton LNK="/shop/gear/gloves"  NAME="Gloves" DESCRIPTION="" v-if="$store.getters.store.filter(item=>{return item.category === 'gloves'}).length > 0"/>
+              <linkbutton LNK="/shop/gear/head"  NAME="Headgear" DESCRIPTION="" v-if="$store.getters.store.filter(item=>{return item.category === 'headgear'}).length > 0"/>
             </div>
           </div>
       </article>
