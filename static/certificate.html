@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <style>
+            html{
+                padding:0;
+                margin:0;
+            }
+            body{
+                padding:15px;
+            }
+            #certificate{
+    position:relative;text-align:center;color:black;font-weight:bolder;text-decoration:none;border: none;background-color: white;padding:15px;width:10.25in;height:7.875in;background:url('/certificate-background.png') no-repeat;
+    -moz-background-size:10.25in 7.875in;
+-webkit-background-size:10.25in 7.875in;
+background-size:10.25in 7.875in;
+}
+#printer-name{
+    
+    position:absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:32pt;
+    width:11in;
+    text-align:center;
+    top:3in;
+    left:5.125in;
+    transform: translate(-50%, -50%);
+}
+#printer-kana{
+    font-family: 'MS Mincho','ＭＳ Ｐゴシック', 'MS PGothic', 'メイリオ', Meiryo, sans-serif;
+    font-size:28pt;
+    text-align:center;
+    width:11in;
+}
+#printer-body{
+    position:absolute;
+    font-family:'Palatino Linotype', Times, serif;
+    font-size:14pt;
+    text-align: center;
+    width:6.75in;
+    top:4.865in;
+    left:5.125in;
+    transform: translate(-50%, -50%);
+}
+#printer-rank{
+    font-family:'Palatino Linotype', Times, serif;
+    font-size:24pt;
+}
+#printer-onthis{
+    font-family:'Palatino Linotype', Times, serif;
+    font-size:14pt;
+}
+#printer-date{
+    font-family:'Palatino Linotype', Times, serif;
+    font-size:18pt
+}
+#printer-seal {
+    position:absolute;
+    border: none;
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:9pt;
+    width:1.9in;
+    top:6.875in;
+    left:2.875in;
+    transform: translate(-50%, -50%);
+}
+#printer-signature{
+    position:absolute;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 10pt;
+    width:2.75in;
+    text-align:center;
+    top:7.25in;
+    left:5.2in;
+    transform: translate(-50%, -50%);
+}
+        </style>
+    </head>
+    <body>
+        <div id="certificate" style="">
+            <p id="printer-name" style="">{{name}}<br>
+            <span id="printer-kana" style="">{{kana}}</span></p>
+            <p id="printer-body" style="">Has presented themself this day before the examination board of the Okinawa Shorin-ryu Matsumura Karate and Kobudo Federation for advancement testing and having honorably and satisfactory demonstrated proficiency is hereby formally promoted to the grade of:
+            <br>
+            <span id="printer-rank" style="">{{rank}} {{junior ? "Jr." : ""}}</span>
+            <br>
+            <span id="printer-onthis" style="">On This</span>
+            <br>
+            <span id="printer-date" style="">{{date}}</span></p>
+            <p id="printer-seal" style="">MEMBER  OF:<br> THE OKINAWA SHORINRYU MATSUMURA SEITO KARATE &amp; KOBUDO FEDERATION &amp; PARRA ACADEMY OF KALI/ SILAT JUN FAN MARTIAL ARTS</p>
+            <p id="printer-signature" style="">Rick A Vogt Sensei <br>Chief Instructor</p>
+        </div>
+    </body>
+</html>

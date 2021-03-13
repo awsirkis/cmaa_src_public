@@ -1,0 +1,18 @@
+[
+    {
+        "groupName": "Sensei",
+        "precedence": 1
+    },
+    {
+        "groupName": "Admin",
+        "precedence": 2
+    },
+    {
+        "groupName": "Instructor",
+        "precedence": 3
+    },
+    {
+        "groupName": "Student",
+        "precedence": 4
+    }
+]

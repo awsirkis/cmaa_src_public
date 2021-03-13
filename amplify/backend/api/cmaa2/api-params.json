@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/cmaa",
+            "lambdaFunction": "cmaafunction",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "cmaa2",
+    "apiName": "cmaa2",
+    "functionArns": [
+        {
+            "lambdaFunction": "cmaafunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-cmaa-dev-161626-authRole",
+        "unAuthRoleName": "amplify-cmaa-dev-161626-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "cmaafunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

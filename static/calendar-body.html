@@ -1,0 +1,373 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+      </head>
+      <body>
+        <style type="text/css">
+        </style>
+            <div id="app">
+                    <v-app id="inspire">
+                      <v-row class="fill-height">
+                        <v-col>
+                          <v-sheet height="64">
+                            <v-toolbar flat color="white">
+                              <v-btn outlined class="mr-4" @click="setToday">
+                                Today
+                              </v-btn>
+                              <v-btn fab text small @click="prev">
+                                <v-icon small>◄</v-icon>
+                              </v-btn>
+                              <v-btn fab text small @click="next">
+                                <v-icon small>►</v-icon>
+                              </v-btn>
+                              <v-toolbar-title>{{ title }}</v-toolbar-title>
+                              <v-spacer></v-spacer>
+                              <v-menu bottom right>
+                                <template v-slot:activator="{ on }">
+                                  <v-btn
+                                    outlined
+                                    v-on="on"
+                                  >
+                                    <span>{{ typeToLabel[type] }}</span>
+                                    <v-icon right>mdi-menu-down</v-icon>
+                                  </v-btn>
+                                </template>
+                                <v-list>
+                                  <v-list-item @click="type = 'day'">
+                                    <v-list-item-title>Day</v-list-item-title>
+                                  </v-list-item>
+                                  <v-list-item @click="type = 'week'">
+                                    <v-list-item-title>Week</v-list-item-title>
+                                  </v-list-item>
+                                  <v-list-item @click="type = 'month'">
+                                    <v-list-item-title>Month</v-list-item-title>
+                                  </v-list-item>
+                                </v-list>
+                              </v-menu>
+                            </v-toolbar>
+                          </v-sheet>
+                          <v-sheet height="600">
+                            <v-calendar
+                              ref="calendar"
+                              v-model="focus"
+                              color="primary"
+                              :events="events"
+                              :event-color="getEventColor"
+                              :event-margin-bottom="3"
+                              :now="today"
+                              :type="type"
+                              @click:event="showEvent"
+                              @click:more="viewDay"
+                              @click:date="viewDay"
+                              @change="updateRange"
+                            ></v-calendar>
+                            <v-menu
+                              v-model="selectedOpen"
+                              :close-on-content-click="false"
+                              :activator="selectedElement"
+                              full-width
+                              offset-x
+                            >
+                              <v-card
+                                color="grey lighten-4"
+                                min-width="350px"
+                                flat
+                              >
+                                <v-toolbar
+                                  :color="selectedEvent.color"
+                                  dark
+                                >
+                                  
+                                  <v-toolbar-title v-html="selectedEvent.name"></v-toolbar-title>
+                                  <v-spacer></v-spacer>
+                                  
+                                </v-toolbar>
+                                <v-card-text>
+                                  <span v-html="selectedEvent.details"></span>
+                                </v-card-text>
+                                
+                              </v-card>
+                            </v-menu>
+                          </v-sheet>
+                        </v-col>
+                      </v-row>
+                    </v-app>
+                  </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+    <script>
+    new Vue({
+  el: '#app',
+  vuetify: new Vuetify(),
+  data: () => ({
+    type: undefined,
+    typeToLabel: {
+      month: 'Month',
+      week: 'Week',
+      day: 'Day'
+    },
+    start: '2019-12-01',
+    end: null,
+    focus: null,
+    selectedEvent: {},
+    selectedElement: null,
+    selectedOpen: false,
+    // red: no class
+    // black: blackbelt class
+    // blue: kids class
+    // green: adult karate class
+    // amber: seminar
+    // purple: combatives
+    // orange: tai chi
+
+    events: [
+      
+    ],
+    SpecialEvents:[
+    {
+        name: '1st Annual Tuhon Seminar',
+        details: '10:00 am - 12:00 pm, 1:00 - 3:00 pm',
+        start: '2020-02-22 10:00',
+        end: '2020-02-22 12:00',
+        color: 'amber',
+      },
+      {
+        name: '1st Annual Tuhon Seminar',
+        details: '10:00 am - 12:00 pm, 1:00 - 3:00 pm',
+        start: '2020-02-23 10:00',
+        end: '2020-02-23 12:00',
+        color: 'amber',
+      },
+      {
+        name: "Women's Self-Defense Seminar",
+        details: "$25.00 fee",
+        start: '2020-02-08 10:00',
+        end: '2020-02-08 12:00',
+        color: 'amber'
+      },
+    ],
+      colors: ['blue', 'green', 'deep-purple', 'orange'],
+      names: ['Youth', 'Adult', 'Combatives', 'Tai Chi'],
+      descriptions:['6:00pm - 7:00pm', '7:00pm - 8:30pm','9:00am - 10:00am','10:00am - 12:00pm','10:00am - 11:30am','4:45 - 6:00pm','12:00pm - 1:30pm','1:30pm - 3:30pm']
+  }),
+  computed: {
+    title () {
+      const { start, end } = this
+      if (!start || !end) {
+        return ''
+      }
+
+      const startMonth = this.monthFormatter(start)
+      const endMonth = this.monthFormatter(end)
+      const suffixMonth = startMonth === endMonth ? '' : endMonth
+
+      const startYear = start.year
+      const endYear = end.year
+      const suffixYear = startYear === endYear ? '' : endYear
+
+      const startDay = start.day + this.nth(start.day)
+      const endDay = end.day + this.nth(end.day)
+
+      switch (this.type) {
+        case 'month':
+          return `${startMonth} ${startYear}`
+        case 'week':
+          return `${startMonth} ${startDay} ${startYear} - ${suffixMonth} ${endDay} ${suffixYear}`
+        case 'day':
+            return `${startMonth} ${startDay} ${startYear}`
+      }
+      return ''
+    },
+    monthFormatter () {
+      return this.$refs.calendar.getFormatter({
+        timeZone: 'UTC', month: 'long',
+      })
+    },
+    today(){
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        var yyyy = today.getFullYear();
+
+        today = yyyy + '-' + mm + '-' + dd;
+        return today;
+    }
+  },
+  mounted () {
+    this.$refs.calendar.checkChange()
+    const width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    if (width < 798){
+      this.type='day';
+    }
+    else{
+      this.type='month'
+    }
+  },
+  methods: {
+    viewDay ({ date }) {
+      this.focus = date
+      this.type = 'day'
+    },
+    getEventColor (event) {
+      return event.color
+    },
+    setToday () {
+      this.focus = this.today
+    },
+    prev () {
+      this.$refs.calendar.prev()
+    },
+    next () {
+      this.$refs.calendar.next()
+    },
+    showEvent ({ nativeEvent, event }) {
+      const open = () => {
+        this.selectedEvent = event
+        this.selectedElement = nativeEvent.target
+        setTimeout(() => this.selectedOpen = true, 10)
+      }
+
+      if (this.selectedOpen) {
+        this.selectedOpen = false
+        setTimeout(open, 10)
+      } else {
+        open()
+      }
+
+      nativeEvent.stopPropagation()
+    },
+    updateRange ({ start, end }) {
+      // You could load events from an outside source (like database) now that we have the start and end dates on the calendar
+      let i = new Date(start.date)
+        let j = new Date(end.date)
+        i.setDate(i.getDate()+1)
+        j.setDate(j.getDate()+1)
+        const events = []
+        for(i; i <= j; i.setDate(i.getDate()+1)){
+          if(i.getDay() == 0){
+            // Sunday, no regular classes
+          }
+          // MOnday
+          else if(i.getDay() == 1){
+            events.push({
+              name: this.names[0],
+              color: this.colors[0],
+              start: start.year + '-' + start.month + '-' + i.getDate() + ' 18:00',
+              end: start.year + '-' + start.month + '-' + i.getDate() + ' 19:00'
+            })
+            events.push({
+              name: this.names[1],
+              color: this.colors[1],
+              start: start.year + '-' + start.month + '-' + i.getDate() + ' 19:00',
+              end: start.year + '-' + start.month + '-' + i.getDate() + ' 20:30'
+            })
+          }
+          // Tuesday
+          else if(i.getDay() == 2){
+            events.push({
+              name: this.names[0],
+              color: this.colors[0],
+              start: start.year + '-' + start.month + '-' + i.getDate() + ' 18:00',
+              end: start.year + '-' + start.month + '-' + i.getDate() + ' 19:00'
+            })
+            events.push({
+              name: this.names[1],
+              color: this.colors[1],
+              start: start.year + '-' + start.month + '-' + i.getDate() + ' 19:00',
+              end: start.year + '-' + start.month + '-' + i.getDate() + ' 20:30'
+            })
+          }
+          // Wednesday
+          else if(i.getDay() == 3){
+            events.push({
+              name: this.names[3],
+              color: this.colors[3],
+              start: start.year + '-' + start.month + '-' + i.getDate() + ' 10:00',
+              end: start.year + '-' + start.month + '-' + i.getDate() + ' 11:30',
+              details: '24-Style'
+            })
+            events.push({
+              name: this.names[0],
+              color: this.colors[0],
+              start: start.year + '-' + start.month + '-' + i.getDate() + ' 18:00',
+              end: start.year + '-' + start.month + '-' + i.getDate() + ' 19:00'
+            })
+            events.push({
+              name: this.names[2],
+              color: this.colors[2],
+              start: start.year + '-' + start.month + '-' + i.getDate() + ' 19:00',
+              end: start.year + '-' + start.month + '-' + i.getDate() + ' 20:30'
+            })
+          }
+          // Thursday
+          else if(i.getDay() == 4){
+            events.push({
+              name: this.names[0],
+              color: this.colors[0],
+              start: start.year + '-' + start.month + '-' + i.getDate() + ' 18:00',
+              end: start.year + '-' + start.month + '-' + i.getDate() + ' 19:00'
+            })
+            events.push({
+              name: this.names[3],
+              color: this.colors[3],
+              start: start.year + '-' + start.month + '-' + i.getDate() + ' 16:45',
+              end: start.year + '-' + start.month + '-' + i.getDate() + ' 18:00',
+              details: 'Wudang'
+            })
+            events.push({
+              name: this.names[1],
+              color: this.colors[1],
+              start: start.year + '-' + start.month + '-' + i.getDate() + ' 19:00',
+              end: start.year + '-' + start.month + '-' + i.getDate() + ' 20:30'
+            })
+          }
+          // Friday, no regular classes
+          else if(i.getDay() == 5){
+
+          }
+          // Saturday
+          else if(i.getDay() == 6){
+            events.push({
+              name: this.names[3],
+              color: this.colors[3],
+              start: start.year + '-' + start.month + '-' + i.getDate() + ' 12:30',
+              end: start.year + '-' + start.month + '-' + i.getDate() + ' 13:30',
+              details: '24-Style'
+            })
+            events.push({
+              name: this.names[3],
+              color: this.colors[3],
+              start: start.year + '-' + start.month + '-' + i.getDate() + ' 13:30',
+              end: start.year + '-' + start.month + '-' + i.getDate() + ' 15:00',
+              details: '37-Style'
+            })
+            events.push({
+              name: this.names[0],
+              color: this.colors[0],
+              start: start.year + '-' + start.month + '-' + i.getDate() + ' 09:00',
+              end: start.year + '-' + start.month + '-' + i.getDate() + ' 10:00'
+            })
+            events.push({
+              name: this.names[2],
+              color: this.colors[2],
+              start: start.year + '-' + start.month + '-' + i.getDate() + ' 10:00',
+              end: start.year + '-' + start.month + '-' + i.getDate() + ' 12:00'
+            })
+          }
+        }
+        this.start = start
+        this.end = end
+        this.events = events.concat(this.SpecialEvents)
+    },
+    nth (d) {
+      return d > 3 && d < 21
+        ? 'th'
+        : ['th', 'st', 'nd', 'rd', 'th', 'th', 'th', 'th', 'th', 'th'][d % 10]
+    },
+  },
+})
+    </script>
+</body>
+</html>

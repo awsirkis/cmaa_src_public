@@ -1,0 +1,1832 @@
+  High            Denial-of-Service Extended Event Loop Blocking
+
+  Package         qs
+
+  Patched in      >= 1.x
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > body-parser > qs
+
+  More info       https://npmjs.com/advisories/28
+
+
+  High            Denial-of-Service Extended Event Loop Blocking
+
+  Package         qs
+
+  Patched in      >= 1.x
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > qs
+
+  More info       https://npmjs.com/advisories/28
+
+
+  High            Denial-of-Service Extended Event Loop Blocking
+
+  Package         qs
+
+  Patched in      >= 1.x
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > winston > request > qs
+
+  More info       https://npmjs.com/advisories/28
+
+
+  High            Denial-of-Service Extended Event Loop Blocking
+
+  Package         qs
+
+  Patched in      >= 1.x
+
+  Dependency of   dns
+
+  Path            dns > winston > request > qs
+
+  More info       https://npmjs.com/advisories/28
+
+
+  High            Denial-of-Service Memory Exhaustion
+
+  Package         qs
+
+  Patched in      >= 1.x
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > body-parser > qs
+
+  More info       https://npmjs.com/advisories/29
+
+
+  High            Denial-of-Service Memory Exhaustion
+
+  Package         qs
+
+  Patched in      >= 1.x
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > qs
+
+  More info       https://npmjs.com/advisories/29
+
+
+  High            Denial-of-Service Memory Exhaustion
+
+  Package         qs
+
+  Patched in      >= 1.x
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > winston > request > qs
+
+  More info       https://npmjs.com/advisories/29
+
+
+  High            Denial-of-Service Memory Exhaustion
+
+  Package         qs
+
+  Patched in      >= 1.x
+
+  Dependency of   dns
+
+  Path            dns > winston > request > qs
+
+  More info       https://npmjs.com/advisories/29
+
+
+  High            Prototype Pollution Protection Bypass
+
+  Package         qs
+
+  Patched in      >=6.0.4 <6.1.0 || >=6.1.2 <6.2.0 || >=6.2.3 <6.3.0 ||
+                  >=6.3.2
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > body-parser > qs
+
+  More info       https://npmjs.com/advisories/1469
+
+
+  High            Prototype Pollution Protection Bypass
+
+  Package         qs
+
+  Patched in      >=6.0.4 <6.1.0 || >=6.1.2 <6.2.0 || >=6.2.3 <6.3.0 ||
+                  >=6.3.2
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > qs
+
+  More info       https://npmjs.com/advisories/1469
+
+
+  High            Prototype Pollution Protection Bypass
+
+  Package         qs
+
+  Patched in      >=6.0.4 <6.1.0 || >=6.1.2 <6.2.0 || >=6.2.3 <6.3.0 ||
+                  >=6.3.2
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > winston > request > qs
+
+  More info       https://npmjs.com/advisories/1469
+
+
+  High            Prototype Pollution Protection Bypass
+
+  Package         qs
+
+  Patched in      >=6.0.4 <6.1.0 || >=6.1.2 <6.2.0 || >=6.2.3 <6.3.0 ||
+                  >=6.3.2
+
+  Dependency of   dns
+
+  Path            dns > winston > request > qs
+
+  More info       https://npmjs.com/advisories/1469
+
+
+  High            Prototype Pollution Protection Bypass
+
+  Package         qs
+
+  Patched in      >=6.0.4 <6.1.0 || >=6.1.2 <6.2.0 || >=6.2.3 <6.3.0 ||
+                  >=6.3.2
+
+  Dependency of   phantomjs
+
+  Path            phantomjs > request > qs
+
+  More info       https://npmjs.com/advisories/1469
+
+
+  Low             Directory Traversal
+
+  Package         send
+
+  Patched in      >= 0.8.4
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > send
+
+  More info       https://npmjs.com/advisories/32
+
+
+  Low             Directory Traversal
+
+  Package         send
+
+  Patched in      >= 0.8.4
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > serve-static > send
+
+  More info       https://npmjs.com/advisories/32
+
+
+  Low             Root Path Disclosure
+
+  Package         send
+
+  Patched in      >=0.11.1
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > send
+
+  More info       https://npmjs.com/advisories/56
+
+
+  Low             Root Path Disclosure
+
+  Package         send
+
+  Patched in      >=0.11.1
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > serve-static > send
+
+  More info       https://npmjs.com/advisories/56
+
+
+  Low             Open Redirect
+
+  Package         serve-static
+
+  Patched in      ~1.6.5 || >=1.7.2
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > serve-static
+
+  More info       https://npmjs.com/advisories/35
+
+
+  Moderate        Regular Expression Denial of Service
+
+  Package         ms
+
+  Patched in      >0.7.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > connect > debug > ms
+
+  More info       https://npmjs.com/advisories/46
+
+
+  Moderate        Regular Expression Denial of Service
+
+  Package         ms
+
+  Patched in      >0.7.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > connect > finalhandler > debug > ms
+
+  More info       https://npmjs.com/advisories/46
+
+
+  Moderate        Regular Expression Denial of Service
+
+  Package         ms
+
+  Patched in      >0.7.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > debug > ms
+
+  More info       https://npmjs.com/advisories/46
+
+
+  Moderate        Regular Expression Denial of Service
+
+  Package         ms
+
+  Patched in      >0.7.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > finalhandler > debug > ms
+
+  More info       https://npmjs.com/advisories/46
+
+
+  Moderate        Regular Expression Denial of Service
+
+  Package         ms
+
+  Patched in      >0.7.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > send > debug > ms
+
+  More info       https://npmjs.com/advisories/46
+
+
+  Moderate        Regular Expression Denial of Service
+
+  Package         ms
+
+  Patched in      >0.7.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > serve-static > send > debug > ms
+
+  More info       https://npmjs.com/advisories/46
+
+
+  Moderate        Regular Expression Denial of Service
+
+  Package         ms
+
+  Patched in      >0.7.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > send > ms
+
+  More info       https://npmjs.com/advisories/46
+
+
+  Moderate        Regular Expression Denial of Service
+
+  Package         ms
+
+  Patched in      >0.7.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > serve-static > send > ms
+
+  More info       https://npmjs.com/advisories/46
+
+
+  Low             Remote Memory Disclosure
+
+  Package         ws
+
+  Patched in      >= 1.0.1
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > socket.io > engine.io > ws
+
+  More info       https://npmjs.com/advisories/67
+
+
+  Low             Remote Memory Disclosure
+
+  Package         ws
+
+  Patched in      >= 1.0.1
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > socket.io > socket.io-client >
+                  engine.io-client > ws
+
+  More info       https://npmjs.com/advisories/67
+
+
+  High            DoS due to excessively large websocket message
+
+  Package         ws
+
+  Patched in      >=1.1.1
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > socket.io > engine.io > ws
+
+  More info       https://npmjs.com/advisories/120
+
+
+  High            DoS due to excessively large websocket message
+
+  Package         ws
+
+  Patched in      >=1.1.1
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > socket.io > socket.io-client >
+                  engine.io-client > ws
+
+  More info       https://npmjs.com/advisories/120
+
+
+  High            Denial of Service
+
+  Package         ws
+
+  Patched in      >= 1.1.5 <2.0.0 || >=3.3.1
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > socket.io > engine.io > ws
+
+  More info       https://npmjs.com/advisories/550
+
+
+  High            Denial of Service
+
+  Package         ws
+
+  Patched in      >= 1.1.5 <2.0.0 || >=3.3.1
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > socket.io > socket.io-client >
+                  engine.io-client > ws
+
+  More info       https://npmjs.com/advisories/550
+
+
+  Moderate        Regular Expression Denial of Service
+
+  Package         hawk
+
+  Patched in      >=3.1.3 < 4.0.0 || >=4.1.1
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > winston > request > hawk
+
+  More info       https://npmjs.com/advisories/77
+
+
+  Moderate        Regular Expression Denial of Service
+
+  Package         hawk
+
+  Patched in      >=3.1.3 < 4.0.0 || >=4.1.1
+
+  Dependency of   dns
+
+  Path            dns > winston > request > hawk
+
+  More info       https://npmjs.com/advisories/77
+
+
+  Low             Insecure Entropy Source - Math.random()
+
+  Package         node-uuid
+
+  Patched in      >=1.4.4
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > winston > request > node-uuid
+
+  More info       https://npmjs.com/advisories/93
+
+
+  Moderate        Insecure Defaults Allow MITM Over TLS
+
+  Package         engine.io-client
+
+  Patched in      >= 1.6.9
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > socket.io > socket.io-client >
+                  engine.io-client
+
+  More info       https://npmjs.com/advisories/99
+
+
+  High            Regular Expression Denial of Service
+
+  Package         negotiator
+
+  Patched in      >= 0.6.1
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > errorhandler > accepts > negotiator
+
+  More info       https://npmjs.com/advisories/106
+
+
+  High            Regular Expression Denial of Service
+
+  Package         negotiator
+
+  Patched in      >= 0.6.1
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > accepts > negotiator
+
+  More info       https://npmjs.com/advisories/106
+
+
+  Moderate        ReDoS via long string of semicolons
+
+  Package         tough-cookie
+
+  Patched in      >=2.3.0
+
+  Dependency of   phantomjs
+
+  Path            phantomjs > request > tough-cookie
+
+  More info       https://npmjs.com/advisories/130
+
+
+  High            Regular Expression Denial of Service
+
+  Package         tough-cookie
+
+  Patched in      >=2.3.3
+
+  Dependency of   phantomjs
+
+  Path            phantomjs > request > tough-cookie
+
+  More info       https://npmjs.com/advisories/525
+
+
+  Moderate        Timing Attack
+
+  Package         cookie-signature
+
+  Patched in      >=1.0.6
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > cookie-signature
+
+  More info       https://npmjs.com/advisories/134
+
+
+  Moderate        Remote Memory Exposure
+
+  Package         request
+
+  Patched in      >=2.68.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > winston > request
+
+  More info       https://npmjs.com/advisories/309
+
+
+  Moderate        Remote Memory Exposure
+
+  Package         request
+
+  Patched in      >=2.68.0
+
+  Dependency of   dns
+
+  Path            dns > winston > request
+
+  More info       https://npmjs.com/advisories/309
+
+
+  Moderate        Remote Memory Exposure
+
+  Package         request
+
+  Patched in      >=2.68.0
+
+  Dependency of   phantomjs
+
+  Path            phantomjs > request
+
+  More info       https://npmjs.com/advisories/309
+
+
+  Moderate        Tmp files readable by other users
+
+  Package         sync-exec
+
+  Patched in      No patch available
+
+  Dependency of   copy-paste
+
+  Path            copy-paste > sync-exec
+
+  More info       https://npmjs.com/advisories/310
+
+
+  Moderate        Tmp files readable by other users
+
+  Package         sync-exec
+
+  Patched in      No patch available
+
+  Dependency of   sync-exec
+
+  Path            sync-exec
+
+  More info       https://npmjs.com/advisories/310
+
+
+  High            Regular Expression Denial of Service
+
+  Package         fresh
+
+  Patched in      >= 0.5.2
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > fresh
+
+  More info       https://npmjs.com/advisories/526
+
+
+  High            Regular Expression Denial of Service
+
+  Package         fresh
+
+  Patched in      >= 0.5.2
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > send > fresh
+
+  More info       https://npmjs.com/advisories/526
+
+
+  High            Regular Expression Denial of Service
+
+  Package         fresh
+
+  Patched in      >= 0.5.2
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > serve-static > send > fresh
+
+  More info       https://npmjs.com/advisories/526
+
+
+  High            Regular Expression Denial of Service
+
+  Package         parsejson
+
+  Patched in      No patch available
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > socket.io > socket.io-client >
+                  engine.io-client > parsejson
+
+  More info       https://npmjs.com/advisories/528
+
+
+  High            Regular Expression Denial of Service
+
+  Package         parsejson
+
+  Patched in      No patch available
+
+  Dependency of   parsejson
+
+  Path            parsejson
+
+  More info       https://npmjs.com/advisories/528
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         debug
+
+  Patched in      >= 2.6.9 < 3.0.0 || >= 3.1.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > connect > debug
+
+  More info       https://npmjs.com/advisories/534
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         debug
+
+  Patched in      >= 2.6.9 < 3.0.0 || >= 3.1.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > connect > finalhandler > debug
+
+  More info       https://npmjs.com/advisories/534
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         debug
+
+  Patched in      >= 2.6.9 < 3.0.0 || >= 3.1.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > debug
+
+  More info       https://npmjs.com/advisories/534
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         debug
+
+  Patched in      >= 2.6.9 < 3.0.0 || >= 3.1.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > finalhandler > debug
+
+  More info       https://npmjs.com/advisories/534
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         debug
+
+  Patched in      >= 2.6.9 < 3.0.0 || >= 3.1.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > send > debug
+
+  More info       https://npmjs.com/advisories/534
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         debug
+
+  Patched in      >= 2.6.9 < 3.0.0 || >= 3.1.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > serve-static > send > debug
+
+  More info       https://npmjs.com/advisories/534
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         debug
+
+  Patched in      >= 2.6.9 < 3.0.0 || >= 3.1.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > socket.io > debug
+
+  More info       https://npmjs.com/advisories/534
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         debug
+
+  Patched in      >= 2.6.9 < 3.0.0 || >= 3.1.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > socket.io > socket.io-adapter > debug
+
+  More info       https://npmjs.com/advisories/534
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         debug
+
+  Patched in      >= 2.6.9 < 3.0.0 || >= 3.1.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > socket.io > socket.io-adapter >
+                  socket.io-parser > debug
+
+  More info       https://npmjs.com/advisories/534
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         debug
+
+  Patched in      >= 2.6.9 < 3.0.0 || >= 3.1.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > socket.io > socket.io-client > debug
+
+  More info       https://npmjs.com/advisories/534
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         debug
+
+  Patched in      >= 2.6.9 < 3.0.0 || >= 3.1.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > socket.io > socket.io-client >
+                  engine.io-client > debug
+
+  More info       https://npmjs.com/advisories/534
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         debug
+
+  Patched in      >= 2.6.9 < 3.0.0 || >= 3.1.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > socket.io > socket.io-client >
+                  socket.io-parser > debug
+
+  More info       https://npmjs.com/advisories/534
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         debug
+
+  Patched in      >= 2.6.9 < 3.0.0 || >= 3.1.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > socket.io > socket.io-parser > debug
+
+  More info       https://npmjs.com/advisories/534
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         debug
+
+  Patched in      >= 2.6.9 < 3.0.0 || >= 3.1.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > socket.io > engine.io > debug
+
+  More info       https://npmjs.com/advisories/534
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         debug
+
+  Patched in      >= 2.6.9 < 3.0.0 || >= 3.1.0
+
+  Dependency of   phantomjs
+
+  Path            phantomjs > extract-zip > debug
+
+  More info       https://npmjs.com/advisories/534
+
+
+  Moderate        Regular Expression Denial of Service
+
+  Package         mime
+
+  Patched in      >= 1.4.1 < 2.0.0 || >= 2.0.3
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > send > mime
+
+  More info       https://npmjs.com/advisories/535
+
+
+  Moderate        Regular Expression Denial of Service
+
+  Package         mime
+
+  Patched in      >= 1.4.1 < 2.0.0 || >= 2.0.3
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > express > serve-static > send > mime
+
+  More info       https://npmjs.com/advisories/535
+
+
+  Moderate        Regular Expression Denial of Service
+
+  Package         mime
+
+  Patched in      >= 1.4.1 < 2.0.0 || >= 2.0.3
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > winston > request > form-data > mime
+
+  More info       https://npmjs.com/advisories/535
+
+
+  Moderate        Regular Expression Denial of Service
+
+  Package         mime
+
+  Patched in      >= 1.4.1 < 2.0.0 || >= 2.0.3
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > winston > request > mime
+
+  More info       https://npmjs.com/advisories/535
+
+
+  Moderate        Regular Expression Denial of Service
+
+  Package         mime
+
+  Patched in      >= 1.4.1 < 2.0.0 || >= 2.0.3
+
+  Dependency of   dns
+
+  Path            dns > winston > request > form-data > mime
+
+  More info       https://npmjs.com/advisories/535
+
+
+  Moderate        Regular Expression Denial of Service
+
+  Package         mime
+
+  Patched in      >= 1.4.1 < 2.0.0 || >= 2.0.3
+
+  Dependency of   dns
+
+  Path            dns > winston > request > mime
+
+  More info       https://npmjs.com/advisories/535
+
+
+  Moderate        Prototype Pollution
+
+  Package         hoek
+
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > winston > request > hawk > boom > hoek
+
+  More info       https://npmjs.com/advisories/566
+
+
+  Moderate        Prototype Pollution
+
+  Package         hoek
+
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > winston > request > hawk > cryptiles > boom
+                  > hoek
+
+  More info       https://npmjs.com/advisories/566
+
+
+  Moderate        Prototype Pollution
+
+  Package         hoek
+
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > winston > request > hawk > hoek
+
+  More info       https://npmjs.com/advisories/566
+
+
+  Moderate        Prototype Pollution
+
+  Package         hoek
+
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > winston > request > hawk > sntp > hoek
+
+  More info       https://npmjs.com/advisories/566
+
+
+  Moderate        Prototype Pollution
+
+  Package         hoek
+
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3
+
+  Dependency of   dns
+
+  Path            dns > winston > request > hawk > boom > hoek
+
+  More info       https://npmjs.com/advisories/566
+
+
+  Moderate        Prototype Pollution
+
+  Package         hoek
+
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3
+
+  Dependency of   dns
+
+  Path            dns > winston > request > hawk > cryptiles > boom > hoek
+
+  More info       https://npmjs.com/advisories/566
+
+
+  Moderate        Prototype Pollution
+
+  Package         hoek
+
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3
+
+  Dependency of   dns
+
+  Path            dns > winston > request > hawk > hoek
+
+  More info       https://npmjs.com/advisories/566
+
+
+  Moderate        Prototype Pollution
+
+  Package         hoek
+
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3
+
+  Dependency of   dns
+
+  Path            dns > winston > request > hawk > sntp > hoek
+
+  More info       https://npmjs.com/advisories/566
+
+
+  Moderate        Prototype Pollution
+
+  Package         hoek
+
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3
+
+  Dependency of   phantomjs
+
+  Path            phantomjs > request > hawk > boom > hoek
+
+  More info       https://npmjs.com/advisories/566
+
+
+  Moderate        Prototype Pollution
+
+  Package         hoek
+
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3
+
+  Dependency of   phantomjs
+
+  Path            phantomjs > request > hawk > cryptiles > boom > hoek
+
+  More info       https://npmjs.com/advisories/566
+
+
+  Moderate        Prototype Pollution
+
+  Package         hoek
+
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3
+
+  Dependency of   phantomjs
+
+  Path            phantomjs > request > hawk > hoek
+
+  More info       https://npmjs.com/advisories/566
+
+
+  Moderate        Prototype Pollution
+
+  Package         hoek
+
+  Patched in      > 4.2.0 < 5.0.0 || >= 5.0.3
+
+  Dependency of   phantomjs
+
+  Path            phantomjs > request > hawk > sntp > hoek
+
+  More info       https://npmjs.com/advisories/566
+
+
+  Moderate        Memory Exposure
+
+  Package         concat-stream
+
+  Patched in      >=1.5.2 || >=1.4.11 <1.5.0 || >=1.3.2 <1.4.0
+
+  Dependency of   phantomjs
+
+  Path            phantomjs > extract-zip > concat-stream
+
+  More info       https://npmjs.com/advisories/597
+
+
+  Moderate        Memory Exposure
+
+  Package         tunnel-agent
+
+  Patched in      >=0.6.0
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > winston > request > tunnel-agent
+
+  More info       https://npmjs.com/advisories/598
+
+
+  Moderate        Memory Exposure
+
+  Package         tunnel-agent
+
+  Patched in      >=0.6.0
+
+  Dependency of   dns
+
+  Path            dns > winston > request > tunnel-agent
+
+  More info       https://npmjs.com/advisories/598
+
+
+  Moderate        Memory Exposure
+
+  Package         tunnel-agent
+
+  Patched in      >=0.6.0
+
+  Dependency of   phantomjs
+
+  Path            phantomjs > request > tunnel-agent
+
+  More info       https://npmjs.com/advisories/598
+
+
+  Moderate        Code Injection
+
+  Package         morgan
+
+  Patched in      >=1.9.1
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > morgan
+
+  More info       https://npmjs.com/advisories/736
+
+
+  Low             Regular Expression Denial of Service
+
+  Package         braces
+
+  Patched in      >=2.3.1
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-provider-awscloudformation >
+                  cfn-lint > array-intersection > filter-array > micromatch >
+                  braces
+
+  More info       https://npmjs.com/advisories/786
+
+
+  Critical        Arbitrary File Read
+
+  Package         html-pdf
+
+  Patched in      No patch available
+
+  Dependency of   html-pdf
+
+  Path            html-pdf
+
+  More info       https://npmjs.com/advisories/1095
+
+
+  Low             Prototype Pollution
+
+  Package         minimist
+
+  Patched in      >=0.2.1 <1.0.0 || >=1.2.3
+
+  Dependency of   phantomjs
+
+  Path            phantomjs > extract-zip > mkdirp > minimist
+
+  More info       https://npmjs.com/advisories/1179
+
+
+  High            Insufficient Entropy
+
+  Package         cryptiles
+
+  Patched in      >=4.1.2
+
+  Dependency of   dns
+
+  Path            dns > tomahawk > winston > request > hawk > cryptiles
+
+  More info       https://npmjs.com/advisories/1464
+
+
+  High            Insufficient Entropy
+
+  Package         cryptiles
+
+  Patched in      >=4.1.2
+
+  Dependency of   dns
+
+  Path            dns > winston > request > hawk > cryptiles
+
+  More info       https://npmjs.com/advisories/1464
+
+
+  High            Insufficient Entropy
+
+  Package         cryptiles
+
+  Patched in      >=4.1.2
+
+  Dependency of   phantomjs
+
+  Path            phantomjs > request > hawk > cryptiles
+
+  More info       https://npmjs.com/advisories/1464
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-codegen > @graphql-codegen/core >
+                  @graphql-codegen/plugin-helpers > @graphql-toolkit/common >
+                  lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-provider-awscloudformation >
+                  amplify-codegen > @graphql-codegen/core >
+                  @graphql-codegen/plugin-helpers > @graphql-toolkit/common >
+                  lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-util-mock > amplify-codegen >
+                  @graphql-codegen/core > @graphql-codegen/plugin-helpers >
+                  @graphql-toolkit/common > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-codegen > @graphql-codegen/core >
+                  @graphql-toolkit/common > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-provider-awscloudformation >
+                  amplify-codegen > @graphql-codegen/core >
+                  @graphql-toolkit/common > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-util-mock > amplify-codegen >
+                  @graphql-codegen/core > @graphql-toolkit/common > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-codegen > @graphql-codegen/core >
+                  @graphql-toolkit/schema-merging > @graphql-toolkit/common >
+                  lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-provider-awscloudformation >
+                  amplify-codegen > @graphql-codegen/core >
+                  @graphql-toolkit/schema-merging > @graphql-toolkit/common >
+                  lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-util-mock > amplify-codegen >
+                  @graphql-codegen/core > @graphql-toolkit/schema-merging >
+                  @graphql-toolkit/common > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-codegen >
+                  amplify-codegen-appsync-model-plugin >
+                  @graphql-codegen/visitor-plugin-common >
+                  @graphql-codegen/plugin-helpers > @graphql-toolkit/common >
+                  lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-provider-awscloudformation >
+                  amplify-codegen > amplify-codegen-appsync-model-plugin >
+                  @graphql-codegen/visitor-plugin-common >
+                  @graphql-codegen/plugin-helpers > @graphql-toolkit/common >
+                  lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-util-mock > amplify-codegen >
+                  amplify-codegen-appsync-model-plugin >
+                  @graphql-codegen/visitor-plugin-common >
+                  @graphql-codegen/plugin-helpers > @graphql-toolkit/common >
+                  lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-codegen >
+                  amplify-codegen-appsync-model-plugin >
+                  @graphql-codegen/visitor-plugin-common >
+                  @graphql-toolkit/relay-operation-optimizer >
+                  @graphql-toolkit/common > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-provider-awscloudformation >
+                  amplify-codegen > amplify-codegen-appsync-model-plugin >
+                  @graphql-codegen/visitor-plugin-common >
+                  @graphql-toolkit/relay-operation-optimizer >
+                  @graphql-toolkit/common > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-util-mock > amplify-codegen >
+                  amplify-codegen-appsync-model-plugin >
+                  @graphql-codegen/visitor-plugin-common >
+                  @graphql-toolkit/relay-operation-optimizer >
+                  @graphql-toolkit/common > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   graphql-toolkit
+
+  Path            graphql-toolkit > @graphql-toolkit/code-file-loader >
+                  @graphql-toolkit/common > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   graphql-toolkit
+
+  Path            graphql-toolkit > @graphql-toolkit/common > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   graphql-toolkit
+
+  Path            graphql-toolkit > @graphql-toolkit/schema-merging >
+                  @graphql-toolkit/common > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   graphql-toolkit
+
+  Path            graphql-toolkit > @graphql-toolkit/core >
+                  @graphql-toolkit/common > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   graphql-toolkit
+
+  Path            graphql-toolkit > @graphql-toolkit/core >
+                  @graphql-toolkit/schema-merging > @graphql-toolkit/common >
+                  lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   graphql-toolkit
+
+  Path            graphql-toolkit > @graphql-toolkit/file-loading >
+                  @graphql-toolkit/common > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   graphql-toolkit
+
+  Path            graphql-toolkit > @graphql-toolkit/graphql-file-loader >
+                  @graphql-toolkit/common > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   graphql-toolkit
+
+  Path            graphql-toolkit > @graphql-toolkit/json-file-loader >
+                  @graphql-toolkit/common > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  Low             Prototype Pollution
+
+  Package         lodash
+
+  Patched in      >=4.17.19
+
+  Dependency of   graphql-toolkit
+
+  Path            graphql-toolkit > @graphql-toolkit/url-loader >
+                  @graphql-toolkit/common > lodash
+
+  More info       https://npmjs.com/advisories/1523
+
+
+  High            Remote Memory Exposure
+
+  Package         bl
+
+  Patched in      >=1.2.3 <2.0.0 || >=2.2.1 <3.0.0 || >=3.0.1 <4.0.0 ||
+                  >=4.0.3
+
+  Dependency of   phantomjs
+
+  Path            phantomjs > request > bl
+
+  More info       https://npmjs.com/advisories/1555
+
+
+  Low             Denial of Service
+
+  Package         node-fetch
+
+  Patched in      >=2.6.1 <3.0.0-beta.1|| >= 3.0.0-beta.9
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-codegen >
+                  amplify-codegen-appsync-model-plugin >
+                  @graphql-codegen/visitor-plugin-common >
+                  @graphql-toolkit/relay-operation-optimizer > relay-compiler
+                  > fbjs > isomorphic-fetch > node-fetch
+
+  More info       https://npmjs.com/advisories/1556
+
+
+  Low             Denial of Service
+
+  Package         node-fetch
+
+  Patched in      >=2.6.1 <3.0.0-beta.1|| >= 3.0.0-beta.9
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-provider-awscloudformation >
+                  amplify-codegen > amplify-codegen-appsync-model-plugin >
+                  @graphql-codegen/visitor-plugin-common >
+                  @graphql-toolkit/relay-operation-optimizer > relay-compiler
+                  > fbjs > isomorphic-fetch > node-fetch
+
+  More info       https://npmjs.com/advisories/1556
+
+
+  Low             Denial of Service
+
+  Package         node-fetch
+
+  Patched in      >=2.6.1 <3.0.0-beta.1|| >= 3.0.0-beta.9
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-util-mock > amplify-codegen >
+                  amplify-codegen-appsync-model-plugin >
+                  @graphql-codegen/visitor-plugin-common >
+                  @graphql-toolkit/relay-operation-optimizer > relay-compiler
+                  > fbjs > isomorphic-fetch > node-fetch
+
+  More info       https://npmjs.com/advisories/1556
+
+
+  Low             Denial of Service
+
+  Package         node-fetch
+
+  Patched in      >=2.6.1 <3.0.0-beta.1|| >= 3.0.0-beta.9
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-codegen >
+                  amplify-codegen-appsync-model-plugin >
+                  @graphql-codegen/visitor-plugin-common >
+                  @graphql-toolkit/relay-operation-optimizer > relay-compiler
+                  > relay-runtime > fbjs > isomorphic-fetch > node-fetch
+
+  More info       https://npmjs.com/advisories/1556
+
+
+  Low             Denial of Service
+
+  Package         node-fetch
+
+  Patched in      >=2.6.1 <3.0.0-beta.1|| >= 3.0.0-beta.9
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-provider-awscloudformation >
+                  amplify-codegen > amplify-codegen-appsync-model-plugin >
+                  @graphql-codegen/visitor-plugin-common >
+                  @graphql-toolkit/relay-operation-optimizer > relay-compiler
+                  > relay-runtime > fbjs > isomorphic-fetch > node-fetch
+
+  More info       https://npmjs.com/advisories/1556
+
+
+  Low             Denial of Service
+
+  Package         node-fetch
+
+  Patched in      >=2.6.1 <3.0.0-beta.1|| >= 3.0.0-beta.9
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-util-mock > amplify-codegen >
+                  amplify-codegen-appsync-model-plugin >
+                  @graphql-codegen/visitor-plugin-common >
+                  @graphql-toolkit/relay-operation-optimizer > relay-compiler
+                  > relay-runtime > fbjs > isomorphic-fetch > node-fetch
+
+  More info       https://npmjs.com/advisories/1556
+
+
+  Low             Denial of Service
+
+  Package         node-fetch
+
+  Patched in      >=2.6.1 <3.0.0-beta.1|| >= 3.0.0-beta.9
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-codegen > graphql-config >
+                  graphql-request > cross-fetch > node-fetch
+
+  More info       https://npmjs.com/advisories/1556
+
+
+  Low             Denial of Service
+
+  Package         node-fetch
+
+  Patched in      >=2.6.1 <3.0.0-beta.1|| >= 3.0.0-beta.9
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-provider-awscloudformation >
+                  amplify-codegen > graphql-config > graphql-request >
+                  cross-fetch > node-fetch
+
+  More info       https://npmjs.com/advisories/1556
+
+
+  Low             Denial of Service
+
+  Package         node-fetch
+
+  Patched in      >=2.6.1 <3.0.0-beta.1|| >= 3.0.0-beta.9
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-util-mock > amplify-codegen >
+                  graphql-config > graphql-request > cross-fetch > node-fetch
+
+  More info       https://npmjs.com/advisories/1556
+
+
+  Low             Denial of Service
+
+  Package         node-fetch
+
+  Patched in      >=2.6.1 <3.0.0-beta.1|| >= 3.0.0-beta.9
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-frontend-android > graphql-config
+                  > graphql-request > cross-fetch > node-fetch
+
+  More info       https://npmjs.com/advisories/1556
+
+
+  Low             Denial of Service
+
+  Package         node-fetch
+
+  Patched in      >=2.6.1 <3.0.0-beta.1|| >= 3.0.0-beta.9
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-frontend-ios > graphql-config >
+                  graphql-request > cross-fetch > node-fetch
+
+  More info       https://npmjs.com/advisories/1556
+
+
+  Low             Denial of Service
+
+  Package         node-fetch
+
+  Patched in      >=2.6.1 <3.0.0-beta.1|| >= 3.0.0-beta.9
+
+  Dependency of   @aws-amplify/cli
+
+  Path            @aws-amplify/cli > amplify-frontend-javascript >
+                  graphql-config > graphql-request > cross-fetch > node-fetch
+
+  More info       https://npmjs.com/advisories/1556
+
+
+  Low             Denial of Service
+
+  Package         node-fetch
+
+  Patched in      >=2.6.1 <3.0.0-beta.1|| >= 3.0.0-beta.9
+
+  Dependency of   graphql-toolkit
+
+  Path            graphql-toolkit > @graphql-toolkit/url-loader > cross-fetch
+                  > node-fetch
+
+  More info       https://npmjs.com/advisories/1556
+
+found 133 vulnerabilities (62 low, 41 moderate, 29 high, 1 critical) in 2521 scanned packages
+  133 vulnerabilities require manual review. See the full report for details.
+
+C:\Users\awsir\CMAA>

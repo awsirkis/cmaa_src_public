@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "nuxt.config.js",
+            "use": "@nuxtjs/now-builder",
+            "config": {
+                "serverFiles": [
+                    "package.json"
+                ]
+            }
+        },
+        {
+            "src":"/api/*.js",
+            "use": "@now/node"
+        }
+    ],
+    "routes":[
+        {"src":"/api/certificate", "dest": "/api/certificate.js"},
+        {"src":"/api/contact", "dest": "/api/contact.js"},
+        {"src":"/api/signup", "dest": "/api/signup.js"},
+        {"src":"/api/shop", "dest": "/api/shop.js"},
+    ],
+    
+    "cleanUrls": true,
+    "trailingSlash": false,
+}
